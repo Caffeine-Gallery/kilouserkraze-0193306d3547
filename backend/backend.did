@@ -1,0 +1,7 @@
+service : {
+  addUser: () -> (bool);
+  getCurrentUserCount: () -> (nat) query;
+  getMaxUsers: () -> (nat) query;
+  isAtCapacity: () -> (bool) query;
+  removeUser: () -> (bool);
+}
